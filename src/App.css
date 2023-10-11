@@ -1,0 +1,281 @@
+/* src/App.css */
+.landing-page {
+  text-align: center;
+  padding: 20px;
+  background-color: #2F1893;
+  height: 100vh;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1400px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: left;
+}
+
+.navLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: right;
+}
+
+.startup {
+  font-family: DM Sans;
+  color: white;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+  margin-left: 40px;
+}
+
+nav li {
+  display: inline;
+  margin: 10px;
+}
+
+.overView {
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  opacity: 0.3;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.links {
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.purchaseButton {
+  width: 120px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 100px;
+  background-color: #E93A7D;
+  margin-right: 30px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.headerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  margin-left: 40px;
+}
+
+header h1 {
+  margin: 20px 0;
+  font-family: DM Sans;
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px; /* 120.69% */
+  letter-spacing: -1px;
+  color: #FFFFFF;
+  width: 424px;
+  height: 217px;
+  flex-shrink: 0;
+  text-align: start;
+}
+
+header p {
+  width: 363px;
+  font-family: DM Sans;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 145.455% */
+  color: #FFFFFF;
+  text-align: start;
+}
+
+.learnButton {
+  text-align: start;
+}
+
+header button {
+  width: 157px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 100px;
+  background: #E93A7D;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+
+main {
+  width: 470px;
+  height: 600px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  margin-right: 80px;
+}
+
+main form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px; /* 123.81% */
+  letter-spacing: -0.4px;
+  color: #1E0E62;
+}
+
+label {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  color: #15143966;
+  text-align: start;
+}
+
+.inputField {
+  width: 330px;
+  height: 50px;
+  flex-shrink: 0;
+  background-color: #FFFFFF;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  color: #15143966;
+  border-radius: 100px;
+  border: 2px solid #EBEAED;
+}
+
+.checkBox {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+button {
+  margin: 10px 0;
+}
+
+.signIn {
+  width: 330px;
+  height: 50px;
+  flex-shrink: 0;
+  background-color: #482BE7;
+  border-radius: 100px;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; 
+  color: #FFFFFF;
+}
+
+.horizontal-line-row {
+  display: flex;
+  align-items: center;
+}
+
+.horizontal-line-row hr {
+  flex-grow: 1;
+  border: 2px;
+  border-top: 1px solid black; /* You can adjust the color and style as needed */
+  margin: 0 10px; /* Adjust the margin to control spacing between lines */
+}
+
+hr {
+  width: 141.57px;
+  height: 2px;
+  flex-shrink: 0;
+  stroke-width: 2px;
+  stroke: #EBEAED;
+}
+
+.or {
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.9;
+  color: #15143966;
+}
+
+.loginButton {
+  width: 330px;
+height: 50px;
+flex-shrink: 0;
+background-color: #1DA1F2;
+border-radius: 100px;
+text-align: center;
+font-family: DM Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px;
+color: #FFFFFF;
+border-width: 0;
+}
+
+.account {
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  color: #15143966;
+}
+
+.accountSign {
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+a {
+  color: #25DAC5;
+  text-decoration: none;
+}
